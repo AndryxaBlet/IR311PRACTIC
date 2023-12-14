@@ -1,0 +1,31 @@
+﻿<Page x:Class="FormTours.AddEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FormTours"
+      mc:Ignorable="d" 
+      d:DesignHeight="299" d:DesignWidth="792"
+      Title="AddEditPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="2" TextAlignment="Center"><Run/><LineBreak/><LineBreak/><Run Text="Страна"/></TextBlock>
+        <TextBox Text="{Binding Name}" MaxLength="100" Grid.Column="1" Margin="10,26,10,27"></TextBox>
+        <TextBox Text="{Binding CountOfStars}" Grid.Column="1" Grid.Row="1" Width="175" HorizontalAlignment="Left" Margin="10,21,0,20" Height="34"/>
+        <ComboBox Text="{Binding Country}" Grid.Row="2" Grid.Column="1" x:Name="ComboCountries" DisplayMemberPath="Name" Margin="8,24,8,23" Width="380"/>
+
+        <Button Content="Сохранить" Grid.Row="3" Name="BtnSave" Click="BtnSave_Click" Margin="102,24,102,23" Grid.Column="1"/>
+        <TextBlock TextAlignment="Center" Grid.Row="1"><LineBreak/><LineBreak/><Run Text="Количество звёзд"/></TextBlock>
+        <TextBlock TextAlignment="Center"><Run/><LineBreak/><LineBreak/><Run Text="Название"/></TextBlock>
+    </Grid>
+</Page>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormTours", "FormTours\FormTours.csproj", "{EE6E42CE-70AC-428B-8839-543B3AB9F38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{500048BA-2C46-4ADF-9972-33061255B8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE6E42CE-70AC-428B-8839-543B3AB9F38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6E42CE-70AC-428B-8839-543B3AB9F38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6E42CE-70AC-428B-8839-543B3AB9F38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6E42CE-70AC-428B-8839-543B3AB9F38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500048BA-2C46-4ADF-9972-33061255B8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500048BA-2C46-4ADF-9972-33061255B8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500048BA-2C46-4ADF-9972-33061255B8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500048BA-2C46-4ADF-9972-33061255B8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19B1585-24E1-4CC2-8F73-BC691DF5C1C9}
+	EndGlobalSection
+EndGlobal
