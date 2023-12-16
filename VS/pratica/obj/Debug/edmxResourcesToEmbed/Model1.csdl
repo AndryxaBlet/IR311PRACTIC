@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Practic0201Ir311v2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Apartament">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="HouseID" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="Area" Type="Decimal" Precision="10" Scale="1" Nullable="false" />
+    <Property Name="CountOfRooms" Type="Int32" Nullable="false" />
+    <Property Name="Section" Type="Int32" Nullable="false" />
+    <Property Name="Floor" Type="Int32" Nullable="false" />
+    <Property Name="IsSold" Type="Boolean" Nullable="false" />
+    <Property Name="BuildingCost" Type="Int32" Nullable="false" />
+    <Property Name="ApartmentValueAdded" Type="Int32" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="ArC" Type="Int32" Nullable="false" />
+    <Property Name="RmC" Type="Int32" Nullable="false" />
+    <Property Name="BaseC" Type="Int32" Nullable="false" />
+    <Property Name="Прибыль" Type="Int32" />
+    <NavigationProperty Name="House" Relationship="Self.FK_Apartaments_House" FromRole="Apartaments" ToRole="House" />
+  </EntityType>
+  <EntityType Name="House">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ResidentialComplexID" Type="Int32" Nullable="false" />
+    <Property Name="Street" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BuildingCost" Type="Int32" Nullable="false" />
+    <Property Name="HouseValueAdded" Type="Int32" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="ПрибыльОтКвартир" Type="Int32" />
+    <NavigationProperty Name="Apartaments" Relationship="Self.FK_Apartaments_House" FromRole="House" ToRole="Apartaments" />
+    <NavigationProperty Name="ResidentialComplex" Relationship="Self.FK_House_ResidentialComplex" FromRole="House" ToRole="ResidentialComplex" />
+  </EntityType>
+  <EntityType Name="ResidentialComplex">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BuildingCost" Type="Int32" Nullable="false" />
+    <Property Name="ComplexValueAdded" Type="Int32" Nullable="false" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="ПрибыльОтЖК" Type="Int32" />
+    <NavigationProperty Name="Houses" Relationship="Self.FK_House_ResidentialComplex" FromRole="ResidentialComplex" ToRole="House" />
+  </EntityType>
+  <EntityType Name="results2">
+    <Key>
+      <PropertyRef Name="Номер" />
+    </Key>
+    <Property Name="Номер" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HouseID" Type="Int32" />
+    <Property Name="Прибыль" Type="Int32" />
+  </EntityType>
+  <EntityType Name="rreessuullttss11">
+    <Key>
+      <PropertyRef Name="Номер" />
+    </Key>
+    <Property Name="Номер" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Прибыль" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_Apartaments_House">
+    <End Role="House" Type="Self.House" Multiplicity="1" />
+    <End Role="Apartaments" Type="Self.Apartament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="House">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Apartaments">
+        <PropertyRef Name="HouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_House_ResidentialComplex">
+    <End Role="ResidentialComplex" Type="Self.ResidentialComplex" Multiplicity="1" />
+    <End Role="House" Type="Self.House" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ResidentialComplex">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="House">
+        <PropertyRef Name="ResidentialComplexID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Practic0201Ir311v2Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Apartaments" EntityType="Self.Apartament" />
+    <EntitySet Name="Houses" EntityType="Self.House" />
+    <EntitySet Name="ResidentialComplexes" EntityType="Self.ResidentialComplex" />
+    <EntitySet Name="results2" EntityType="Self.results2" />
+    <EntitySet Name="rreessuullttss11" EntityType="Self.rreessuullttss11" />
+    <AssociationSet Name="FK_Apartaments_House" Association="Self.FK_Apartaments_House">
+      <End Role="House" EntitySet="Houses" />
+      <End Role="Apartaments" EntitySet="Apartaments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_House_ResidentialComplex" Association="Self.FK_House_ResidentialComplex">
+      <End Role="ResidentialComplex" EntitySet="ResidentialComplexes" />
+      <End Role="House" EntitySet="Houses" />
+    </AssociationSet>
+    <FunctionImport Name="CostKV1">
+      <Parameter Name="ZK" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Prib3" />
+    <FunctionImport Name="PribOtKV" />
+  </EntityContainer>
+</Schema>

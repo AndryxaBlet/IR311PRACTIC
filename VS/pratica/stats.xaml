@@ -1,0 +1,31 @@
+﻿<Page x:Class="pratica.stats"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pratica"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="stats">
+    <Grid>
+        <DataGrid Background="BlueViolet" x:Name="dgridstats" HorizontalAlignment="Left"  VerticalAlignment="Top" AutoGenerateColumns="False" IsReadOnly="True" Height="225" Width="445"  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="Прибыль" Binding="{Binding Прибыль}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Background="BlueViolet" x:Name="dgridstats2" HorizontalAlignment="Left"  VerticalAlignment="Top" AutoGenerateColumns="False" IsReadOnly="True" Height="225" Width="445"  >
+            <DataGrid.Columns>
+                
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="HouseID" Binding="{Binding HouseID}" Width="70"></DataGridTextColumn>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Прибыль}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Foreground="White" Background="DarkBlue"  Content="Расчёт N1" HorizontalAlignment="Left" Margin="634,46,0,0" VerticalAlignment="Top" Click="Button_Click" Width="143" Height="29"/>
+        <Button Foreground="White" Background="DarkBlue"  Content="Расчёт N2" HorizontalAlignment="Left" Margin="634,86,0,0" VerticalAlignment="Top" Height="29" Width="143" Click="Button_Click_1"/>
+        <Button Foreground="White" Background="DarkBlue"  Content="Расчёт N3" HorizontalAlignment="Left" Margin="634,126,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="29" Width="143"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="496,52,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Page>

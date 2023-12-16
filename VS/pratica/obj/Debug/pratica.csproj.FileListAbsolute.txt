@@ -1,0 +1,110 @@
+D:\Новая папка (2)\pratica\obj\Debug\pratica.csproj.AssemblyReference.cache
+D:\Новая папка (2)\pratica\obj\Debug\pratica.csproj.SuggestedBindingRedirects.cache
+D:\Новая папка (2)\pratica\obj\Debug\ExpandedList.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\MainWindow.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\App.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\pratica_MarkupCompile.cache
+D:\Новая папка (2)\pratica\obj\Debug\pratica_MarkupCompile.lref
+D:\Новая папка (2)\pratica\obj\Debug\ListApartaments.g.cs
+D:\Новая папка (2)\pratica\bin\Debug\pratica.exe.config
+D:\Новая папка (2)\pratica\bin\Debug\pratica.exe
+D:\Новая папка (2)\pratica\bin\Debug\pratica.pdb
+D:\Новая папка (2)\pratica\obj\Debug\ExpandedList.baml
+D:\Новая папка (2)\pratica\obj\Debug\ListApartaments.baml
+D:\Новая папка (2)\pratica\obj\Debug\MainWindow.baml
+D:\Новая папка (2)\pratica\obj\Debug\pratica.g.resources
+D:\Новая папка (2)\pratica\obj\Debug\pratica.Properties.Resources.resources
+D:\Новая папка (2)\pratica\obj\Debug\pratica.csproj.GenerateResource.cache
+D:\Новая папка (2)\pratica\obj\Debug\pratica.csproj.CoreCompileInputs.cache
+D:\Новая папка (2)\pratica\obj\Debug\pratica.exe
+D:\Новая папка (2)\pratica\obj\Debug\pratica.pdb
+D:\Новая папка (2)\pratica\bin\Debug\EntityFramework.dll
+D:\Новая папка (2)\pratica\bin\Debug\EntityFramework.SqlServer.dll
+D:\Новая папка (2)\pratica\bin\Debug\EntityFramework.xml
+D:\Новая папка (2)\pratica\bin\Debug\EntityFramework.SqlServer.xml
+D:\Новая папка (2)\pratica\obj\Debug\AddApartaments.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\AddResidentialComplex.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\AddHouse.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\ListHouse.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\ListResidentialComplex.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\pratica_Content.g.cs
+D:\Новая папка (2)\pratica\obj\Debug\AddApartaments.baml
+D:\Новая папка (2)\pratica\obj\Debug\AddResidentialComplex.baml
+D:\Новая папка (2)\pratica\obj\Debug\AddHouse.baml
+D:\Новая папка (2)\pratica\obj\Debug\ListHouse.baml
+D:\Новая папка (2)\pratica\obj\Debug\ListResidentialComplex.baml
+D:\Новая папка (2)\pratica\obj\Debug\pratica.csproj.CopyComplete
+E:\pratica\pratica\bin\Debug\pratica.exe.config
+E:\pratica\pratica\bin\Debug\pratica.exe
+E:\pratica\pratica\bin\Debug\pratica.pdb
+E:\pratica\pratica\bin\Debug\EntityFramework.dll
+E:\pratica\pratica\bin\Debug\EntityFramework.SqlServer.dll
+E:\pratica\pratica\bin\Debug\EntityFramework.xml
+E:\pratica\pratica\bin\Debug\EntityFramework.SqlServer.xml
+E:\pratica\pratica\obj\Debug\pratica.csproj.AssemblyReference.cache
+E:\pratica\pratica\obj\Debug\pratica.csproj.SuggestedBindingRedirects.cache
+E:\pratica\pratica\obj\Debug\AddApartaments.g.cs
+E:\pratica\pratica\obj\Debug\AddResidentialComplex.g.cs
+E:\pratica\pratica\obj\Debug\AddHouse.g.cs
+E:\pratica\pratica\obj\Debug\ListApartaments.g.cs
+E:\pratica\pratica\obj\Debug\ListHouse.g.cs
+E:\pratica\pratica\obj\Debug\ListResidentialComplex.g.cs
+E:\pratica\pratica\obj\Debug\MainWindow.g.cs
+E:\pratica\pratica\obj\Debug\App.g.cs
+E:\pratica\pratica\obj\Debug\pratica_Content.g.cs
+E:\pratica\pratica\obj\Debug\pratica_MarkupCompile.cache
+E:\pratica\pratica\obj\Debug\pratica_MarkupCompile.lref
+E:\pratica\pratica\obj\Debug\AddApartaments.baml
+E:\pratica\pratica\obj\Debug\AddResidentialComplex.baml
+E:\pratica\pratica\obj\Debug\AddHouse.baml
+E:\pratica\pratica\obj\Debug\ListApartaments.baml
+E:\pratica\pratica\obj\Debug\ListHouse.baml
+E:\pratica\pratica\obj\Debug\ListResidentialComplex.baml
+E:\pratica\pratica\obj\Debug\MainWindow.baml
+E:\pratica\pratica\obj\Debug\pratica.g.resources
+E:\pratica\pratica\obj\Debug\pratica.Properties.Resources.resources
+E:\pratica\pratica\obj\Debug\pratica.csproj.GenerateResource.cache
+E:\pratica\pratica\obj\Debug\pratica.csproj.CoreCompileInputs.cache
+E:\pratica\pratica\obj\Debug\pratica.csproj.CopyComplete
+E:\pratica\pratica\obj\Debug\pratica.exe
+E:\pratica\pratica\obj\Debug\pratica.pdb
+D:\pratica\pratica\bin\Debug\pratica.exe.config
+D:\pratica\pratica\bin\Debug\pratica.exe
+D:\pratica\pratica\bin\Debug\pratica.pdb
+D:\pratica\pratica\bin\Debug\EntityFramework.dll
+D:\pratica\pratica\bin\Debug\EntityFramework.SqlServer.dll
+D:\pratica\pratica\bin\Debug\EntityFramework.xml
+D:\pratica\pratica\bin\Debug\EntityFramework.SqlServer.xml
+D:\pratica\pratica\obj\Debug\pratica.csproj.AssemblyReference.cache
+D:\pratica\pratica\obj\Debug\pratica.csproj.SuggestedBindingRedirects.cache
+D:\pratica\pratica\obj\Debug\AddApartaments.g.cs
+D:\pratica\pratica\obj\Debug\AddResidentialComplex.g.cs
+D:\pratica\pratica\obj\Debug\AddHouse.g.cs
+D:\pratica\pratica\obj\Debug\ListApartaments.g.cs
+D:\pratica\pratica\obj\Debug\ListHouse.g.cs
+D:\pratica\pratica\obj\Debug\ListResidentialComplex.g.cs
+D:\pratica\pratica\obj\Debug\MainWindow.g.cs
+D:\pratica\pratica\obj\Debug\App.g.cs
+D:\pratica\pratica\obj\Debug\pratica_Content.g.cs
+D:\pratica\pratica\obj\Debug\pratica_MarkupCompile.cache
+D:\pratica\pratica\obj\Debug\pratica_MarkupCompile.lref
+D:\pratica\pratica\obj\Debug\AddApartaments.baml
+D:\pratica\pratica\obj\Debug\AddResidentialComplex.baml
+D:\pratica\pratica\obj\Debug\AddHouse.baml
+D:\pratica\pratica\obj\Debug\ListApartaments.baml
+D:\pratica\pratica\obj\Debug\ListHouse.baml
+D:\pratica\pratica\obj\Debug\ListResidentialComplex.baml
+D:\pratica\pratica\obj\Debug\MainWindow.baml
+D:\pratica\pratica\obj\Debug\pratica.g.resources
+D:\pratica\pratica\obj\Debug\pratica.Properties.Resources.resources
+D:\pratica\pratica\obj\Debug\pratica.csproj.GenerateResource.cache
+D:\pratica\pratica\obj\Debug\pratica.csproj.CoreCompileInputs.cache
+D:\pratica\pratica\obj\Debug\pratica.csproj.CopyComplete
+D:\pratica\pratica\obj\Debug\pratica.exe
+D:\pratica\pratica\obj\Debug\pratica.pdb
+D:\pratica\pratica\obj\Debug\menu.g.cs
+D:\pratica\pratica\obj\Debug\stats.g.cs
+D:\pratica\pratica\obj\Debug\menu.baml
+D:\pratica\pratica\obj\Debug\stats.baml
+E:\pratica\pratica\obj\Debug\menu.g.cs
+E:\pratica\pratica\obj\Debug\stats.g.cs

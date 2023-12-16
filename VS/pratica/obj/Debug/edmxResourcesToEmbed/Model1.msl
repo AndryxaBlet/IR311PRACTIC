@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Practic0201Ir311v2ModelContainer" CdmEntityContainer="Practic0201Ir311v2Entities1">
+    <EntitySetMapping Name="Apartaments">
+      <EntityTypeMapping TypeName="Practic0201Ir311v2Model.Apartament">
+        <MappingFragment StoreEntitySet="Apartaments">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HouseID" ColumnName="HouseID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="CountOfRooms" ColumnName="CountOfRooms" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+          <ScalarProperty Name="IsSold" ColumnName="IsSold" />
+          <ScalarProperty Name="BuildingCost" ColumnName="BuildingCost" />
+          <ScalarProperty Name="ApartmentValueAdded" ColumnName="ApartmentValueAdded" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ArC" ColumnName="ArC" />
+          <ScalarProperty Name="RmC" ColumnName="RmC" />
+          <ScalarProperty Name="BaseC" ColumnName="BaseC" />
+          <ScalarProperty Name="Прибыль" ColumnName="Прибыль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Houses">
+      <EntityTypeMapping TypeName="Practic0201Ir311v2Model.House">
+        <MappingFragment StoreEntitySet="House">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResidentialComplexID" ColumnName="ResidentialComplexID" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="BuildingCost" ColumnName="BuildingCost" />
+          <ScalarProperty Name="HouseValueAdded" ColumnName="HouseValueAdded" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ПрибыльОтКвартир" ColumnName="ПрибыльОтКвартир" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResidentialComplexes">
+      <EntityTypeMapping TypeName="Practic0201Ir311v2Model.ResidentialComplex">
+        <MappingFragment StoreEntitySet="ResidentialComplex">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BuildingCost" ColumnName="BuildingCost" />
+          <ScalarProperty Name="ComplexValueAdded" ColumnName="ComplexValueAdded" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ПрибыльОтЖК" ColumnName="ПрибыльОтЖК" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="results2">
+      <EntityTypeMapping TypeName="Practic0201Ir311v2Model.results2">
+        <MappingFragment StoreEntitySet="results2">
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="HouseID" ColumnName="HouseID" />
+          <ScalarProperty Name="Прибыль" ColumnName="Прибыль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rreessuullttss11">
+      <EntityTypeMapping TypeName="Practic0201Ir311v2Model.rreessuullttss11">
+        <MappingFragment StoreEntitySet="rreessuullttss11">
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Прибыль" ColumnName="Прибыль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CostKV1" FunctionName="Хранилище Practic0201Ir311v2Model.CostKV1" />
+    <FunctionImportMapping FunctionImportName="Prib3" FunctionName="Хранилище Practic0201Ir311v2Model.Prib3" />
+    <FunctionImportMapping FunctionImportName="PribOtKV" FunctionName="Хранилище Practic0201Ir311v2Model.PribOtKV" />
+  </EntityContainerMapping>
+</Mapping>
